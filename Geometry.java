@@ -8,6 +8,7 @@ public class Geometry{
             System.out.println("A decagon has " + sides + " sides.");
             sides = 12;
             System.out.println("A dodecagon has " + sides + " sides.");
+            System.out.println("epic win!!");
             System.out.println("The circumference of a circle with a radius of " + radius + " is " + (PI * (radius * 2)) + ".");
         }
 }
