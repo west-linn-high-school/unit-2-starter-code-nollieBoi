@@ -3,6 +3,10 @@ public class Geometry{
             int sides = 7;
             int radius = 5;
             final double PI = 22/7;
+            int num = 7658;
+            int num2 = num/100;
+            int num3 = num2/10;
+            System.out.println(num - num3 * 1000);
             System.out.println("A heptagon has " + sides + " sides.");
             sides = 10;
             System.out.println("A decagon has " + sides + " sides.");
