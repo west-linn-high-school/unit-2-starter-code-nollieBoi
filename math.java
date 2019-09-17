@@ -1,9 +1,15 @@
 public class math
 {
   public static void main(String[] args){
-    int iResult, num1 = 25, num2 = 40, num3 = 17, num4 = 5;
-    double fResult, val1 = 17.0, val2 = 12.78;
-    iResult = num1 / num2;
-    System.out.println(iResult);
+    double num1 = 2.5;
+    double num2 = -1.5;
+    int num3 = 18;
+    int num4 = 4;
+    String word1 = "Hello";
+    String word2 = "World";
+    double ans;
+    ans = word1.substring(1, 3) + word2.substring(4);
+
+    System.out.println(ans);
   }
 }
